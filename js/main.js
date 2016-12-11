@@ -24,7 +24,7 @@ $(function () {
         napisNumer.hide();
         slideShow.animate({'margin-left': marginLeft}, 800, function () {
             slideIndex = newSlideIndex;
-            animNapis.fadeIn(500);
+            napisNumer.fadeIn(500);
         });        
     }
     
